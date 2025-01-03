@@ -7,11 +7,48 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome!</h1>
-    <p>This is a simple webpage created with Claude.</p>
-    <div class="content">
-        <h2>About</h2>
-        <p>This page demonstrates a basic HTML structure.</p>
-    </div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h1>Welcome!</h1>
+            <p>This is a simple webpage created with Claude.</p>
+        </section>
+
+        <section id="about" class="content">
+            <h2>About</h2>
+            <p>This page demonstrates a basic HTML structure with multiple sections and styling.</p>
+        </section>
+
+        <section id="projects" class="content">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Description of the first project goes here.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>Description of the second project goes here.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>Email: example@domain.com</p>
+                <p>Phone: (555) 123-4567</p>
+                <p>Location: City, Country</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
